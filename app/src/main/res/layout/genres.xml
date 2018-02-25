@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.musicalstructure.GenresActivity">
+
+    <LinearLayout
+        android:id="@+id/menu_bar"
+        style="@style/linear_layout">
+
+        <TextView
+            android:id="@+id/home"
+            style="@style/menu_bar_style"
+            android:text="@string/menu_home" />
+
+        <TextView
+            android:id="@+id/nowplaying_bar"
+            style="@style/menu_bar_style"
+            android:text="@string/menu_now_playing" />
+
+        <TextView
+            android:id="@+id/titles"
+            style="@style/menu_bar_style"
+            android:text="@string/menu_titles" />
+
+        <TextView
+            android:id="@+id/genres"
+            style="@style/menu_bar_selected"
+            android:text="@string/menu_genres" />
+
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/grid_genres"
+        style="@style/genre_grid_view"></GridView>
+
+    <TextView
+        android:id="@+id/genre_description"
+        style="@style/description_style"
+        android:layout_above="@id/now_playing_button"
+        android:text="@string/genres_description" />
+
+    <TextView
+        android:id="@+id/now_playing_button"
+        style="@style/now_playing_button"
+        android:text="@string/now_playing_button" />
+
+</RelativeLayout>

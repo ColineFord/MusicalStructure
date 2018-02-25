@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.musicalstructure.NowPlayingActivity">
+
+    <LinearLayout
+        android:id="@+id/menu_bar"
+        style="@style/linear_layout">
+
+        <TextView
+            android:id="@+id/home"
+            style="@style/menu_bar_style"
+            android:text="@string/menu_home" />
+
+        <TextView
+            android:id="@+id/nowplaying_bar"
+            style="@style/menu_bar_selected"
+            android:text="@string/menu_now_playing" />
+
+        <TextView
+            android:id="@+id/titles"
+            style="@style/menu_bar_style"
+            android:text="@string/menu_titles" />
+
+        <TextView
+            android:id="@+id/genres"
+            style="@style/menu_bar_style"
+            android:text="@string/menu_genres" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/now_playing_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/menu_bar"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_height"
+            android:padding="@dimen/image_nowplaying_padding"
+            android:src="@drawable/dualipacover" />
+
+        <TextView
+            android:id="@+id/song_text_view"
+            style="@style/now_playing_text"
+            android:text="@string/now_playing_title"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/artist_text_view"
+            style="@style/now_playing_text"
+            android:text="@string/now_playing_artist"
+            android:textSize="16sp" />
+
+        <LinearLayout style="@style/linear_layout">
+
+            <ImageView
+                style="@style/play_skip_bar"
+                android:src="@drawable/ic_skip_previous_black_36dp" />
+
+            <ImageView
+                style="@style/play_skip_bar"
+                android:src="@drawable/ic_play_circle_outline_black_36dp" />
+
+            <ImageView
+                style="@style/play_skip_bar"
+                android:src="@drawable/ic_skip_next_black_36dp" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/description_style"
+            android:text="@string/now_playing_description" />
+
+    </LinearLayout>
+
+</RelativeLayout>

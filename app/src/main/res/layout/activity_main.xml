@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.musicalstructure.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/menu_bar"
+        style="@style/linear_layout">
+
+        <TextView
+            android:id="@+id/home"
+            style="@style/menu_bar_selected"
+            android:text="@string/menu_home" />
+
+        <TextView
+            android:id="@+id/nowplaying_bar"
+            style="@style/menu_bar_style"
+            android:text="@string/menu_now_playing" />
+
+        <TextView
+            android:id="@+id/titles"
+            style="@style/menu_bar_style"
+            android:text="@string/menu_titles" />
+
+        <TextView
+            android:id="@+id/genres"
+            style="@style/menu_bar_style"
+            android:text="@string/menu_genres" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linear_layout"
+        android:layout_below="@id/menu_bar"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/home_recent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/home_tag"
+                android:text="@string/home_recent" />
+
+            <TextView
+                style="@style/home_text_views"
+                android:text="@string/now_playing_title" />
+
+            <TextView
+                style="@style/home_text_views"
+                android:text="@string/now_playing_artist" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            style="@style/home_recent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/menu_bar"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/home_tag"
+                android:text="@string/home_newin" />
+
+            <TextView
+                style="@style/home_text_views"
+                android:text="@string/new_in_title" />
+
+            <TextView
+                style="@style/home_text_views"
+                android:text="@string/new_in_artist" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            style="@style/home_recent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/menu_bar"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/home_tag"
+                android:text="@string/home_other" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/description_style"
+        android:layout_above="@id/now_playing_button"
+        android:text="@string/home_description" />
+
+    <TextView
+        android:id="@+id/now_playing_button"
+        style="@style/now_playing_button"
+        android:text="@string/now_playing_button" />
+
+</RelativeLayout>

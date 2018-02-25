@@ -1,0 +1,115 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#381D91</item>
+        <item name="colorPrimaryDark">#4926BF</item>
+        <item name="colorAccent">#FFE066</item>
+    </style>
+
+    <style name="menu_bar_style">
+        <item name="android:padding">13dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">#FFE066</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="menu_bar_selected">
+        <item name="android:padding">13dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">#FFC43D</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="now_playing_button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:background">#381D91</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="description_style">
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">#06D6A0</item>
+    </style>
+
+    <style name="genre_grid_view">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_below">@id/menu_bar</item>
+        <item name="android:layout_above">@id/genre_description</item>
+        <item name="android:numColumns">auto_fit</item>
+        <item name="android:stretchMode">columnWidth</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="titles_list_view">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_above">@id/now_playing_button</item>
+        <item name="android:layout_below">@id/titles_description</item>
+        <item name="android:background">#FFE9B8</item>
+    </style>
+
+    <style name="play_skip_bar">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="now_playing_text">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="grid_view_individual">
+        <item name="android:layout_height">140dp</item>
+        <item name="android:layout_width">150dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">#F25F5C</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="home_recent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:background">#FFE9B8</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <style name="home_tag">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="home_text_views">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    
+    <style name="linear_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

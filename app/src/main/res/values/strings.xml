@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MusicalStructure</string>
+    <string name="now_playing_description">The user can see what song is currently playing on his device,
+        he has the option to skip back, pause/play, and skip forward as well as well as go to other activities.
+        He can see the title of the current song, the artist's name and the album cover.
+    </string>
+    <string name="titles_description">Here you can see the list of the songs on the device, each song comes in it\'s own View with
+        artist\'s name and when a song is clicked the idea would be for it to open the NowPlayingActivity with said song.
+    </string>
+    <string name="genres_description">On this page the user can find songs by genres, he could potentially click on one of the genres
+        a specific playlist made of songs of this style of music would start playing, maybe it could open a new page with the list of songs
+        selected for the category.
+    </string>
+    <string name="home_description">This is the home page, where the user lands on first opening of the app, the user can see what he
+        recently listened to, what is new in his library and other rubrics
+    </string>
+
+
+    <string name="now_playing_button">Now Playing</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_now_playing">Now Playing</string>
+    <string name="menu_titles">Titles</string>
+    <string name="menu_genres">Genres</string>
+
+    <string name="now_playing_title">IDGAF</string>
+    <string name="now_playing_artist">Dua Lipa</string>
+
+    <string name="new_in_title">Hoping</string>
+    <string name="new_in_artist">X Ambassadors</string>
+
+    <string name="home_recent">Recent</string>
+    <string name="home_newin">New In</string>
+    <string name="home_other">Other</string>
+</resources>
