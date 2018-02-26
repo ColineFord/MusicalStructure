@@ -48,7 +48,7 @@
             android:id="@+id/song_text_view"
             style="@style/now_playing_text"
             android:text="@string/now_playing_title"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
         <TextView
@@ -61,15 +61,15 @@
 
             <ImageView
                 style="@style/play_skip_bar"
-                android:src="@drawable/ic_skip_previous_black_36dp" />
+                android:src="@drawable/ic_skip_previous_black_24dp" />
 
             <ImageView
                 style="@style/play_skip_bar"
-                android:src="@drawable/ic_play_circle_outline_black_36dp" />
+                android:src="@drawable/ic_play_circle_outline_black_24dp" />
 
             <ImageView
                 style="@style/play_skip_bar"
-                android:src="@drawable/ic_skip_next_black_36dp" />
+                android:src="@drawable/ic_skip_next_black_24dp" />
 
         </LinearLayout>
 

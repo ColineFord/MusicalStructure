@@ -2,7 +2,7 @@
     <string name="app_name">MusicalStructure</string>
     <string name="now_playing_description">The user can see what song is currently playing on his device,
         he has the option to skip back, pause/play, and skip forward as well as well as go to other activities.
-        He can see the title of the current song, the artist's name and the album cover.
+        He can see the title of the current song, the artist\'s name and the album cover.
     </string>
     <string name="titles_description">Here you can see the list of the songs on the device, each song comes in it\'s own View with
         artist\'s name and when a song is clicked the idea would be for it to open the NowPlayingActivity with said song.

@@ -8,16 +8,16 @@ public class GenreNames {
     /**
      * The genre name.
      */
-    private String mGenreName;
+    private String genreNames;
 
     public GenreNames(String genreName) {
-        mGenreName = genreName;
+        genreNames = genreName;
     }
 
     /**
      * Get the genre name.
      */
     public String getGenreName() {
-        return mGenreName;
+        return genreNames;
     }
 }
